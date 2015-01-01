@@ -57,8 +57,14 @@ Function
 -----
 
 ```
-square = (a, b) -> {
-  return a * b
+square = (a) -> {
+  return a * a
+}
+```
+
+```
+hello = (name = 'anonymous') -> {
+  puts "Hello, #{name}!"
 }
 ```
 
@@ -67,7 +73,7 @@ Class
 
 ```
 class Foo {
-  square (a) -> {
+  square(a) -> {
     "public method"
   }
 
@@ -123,3 +129,6 @@ b = 1 if a == true
 Other Ideas
 ---
 * [Toml](https://github.com/toml-lang/toml) configuration
+* Go implementation (ref. [anko](https://github.com/mattn/anko))
+  * [mruby](https://github.com/mruby/mruby)
+  * [streem](https://github.com/matz/streem)
