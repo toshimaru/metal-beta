@@ -20,6 +20,12 @@ Comment out
 # this is one-line comment
 ```
 
+```
+###
+Multiple comment
+###
+```
+
 Array
 -----
 
