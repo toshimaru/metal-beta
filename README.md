@@ -113,7 +113,7 @@ Include
 
 ```
 Class Foo {
-  include emullable
+  include Enumerablek
 }
 ```
 
@@ -138,3 +138,4 @@ Other Ideas
 * Go implementation (ref. [anko](https://github.com/mattn/anko))
   * [mruby](https://github.com/mruby/mruby)
   * [streem](https://github.com/matz/streem)
+* Exception?
